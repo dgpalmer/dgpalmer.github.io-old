@@ -88,15 +88,14 @@ h6 {
   padding-bottom: 1rem;
 
   @include large {
-    max-width: $max-width;
+    max-width: 40rem;
     margin: 0 auto;
   }
 
   img {
-    
     @include large {
-      width: 320px; 
-      height: 320px;
+      width: 75%;
+      height: auto;
     }
   }
 }
