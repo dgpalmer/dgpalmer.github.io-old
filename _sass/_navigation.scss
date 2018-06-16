@@ -68,17 +68,17 @@ nav {
       display: none;
     }
     @include medium{
-      display: block;
+      display: inline-block;
     }
     @include small{
-      display: block;
+      display: inline-block;
     }
   }
 
   .resume-desktop {
 
     @include large {
-      display: block;
+      display: inline-block;
     }
     @include medium{
       display: none;

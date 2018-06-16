@@ -47,13 +47,13 @@ nav .btn {
     display: none; } }
 @media screen and (min-width: 42em) and (max-width: 64em) {
   nav .resume-mobile {
-    display: block; } }
+    display: inline-block; } }
 @media screen and (max-width: 42em) {
   nav .resume-mobile {
-    display: block; } }
+    display: inline-block; } }
 @media screen and (min-width: 64em) {
   nav .resume-desktop {
-    display: block; } }
+    display: inline-block; } }
 @media screen and (min-width: 42em) and (max-width: 64em) {
   nav .resume-desktop {
     display: none; } }
