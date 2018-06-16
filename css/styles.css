@@ -124,5 +124,7 @@ footer {
   @media screen and (max-width: 42em) {
     footer {
       font-size: 0.9rem; } }
+  footer .footer-nav {
+    font-size: 2rem; }
 
 /*# sourceMappingURL=styles.css.map */
