@@ -28,9 +28,9 @@ p {
     color: #333;
 }
 footer {
-    margin-top: 5rem;
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    margin-top: 15em;
 }
 
 ul.posts { 
@@ -46,5 +46,5 @@ ul.posts li {
   padding: 0 0 5rem 5rem;
 }
 #my-picture .caption {
-  text-align: justify;
+  text-align: center;
 }
