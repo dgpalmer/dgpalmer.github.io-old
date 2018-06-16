@@ -195,6 +195,9 @@ h6 {
     margin-bottom: 1em; }
 
 footer {
+  position: absolute;
+  bottom: 0;
+  height: 75px;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
@@ -214,7 +217,7 @@ footer {
 /**
   * Resume
   */
-.resume {
+.content .resume {
   width: 64rem;
   margin: 0 auto;
   text-align: center; }
