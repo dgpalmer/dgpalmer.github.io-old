@@ -2,8 +2,8 @@
 $font-stack: Helvetica, sans-serif;
 $primary-color: #efefef;
 $primary-link-color: #aa98a6;
-$primary-bg-color: #080811;
-$primary-bg-color-secondary: #eee;
+$primary-bg-color: #2C2B38;
+$primary-bg-color-secondary: #06031c;
 
 // Breakpoints
 $large-breakpoint: 64em;
@@ -15,5 +15,6 @@ $header-bg-color-secondary: #155799;
 $header-color: #fff;
 
 // Footers
+$footer-bg-transparency: rgba(0, 0, 0, 0.9);
 $footer-bg-color: #2C2B38;
 $footer-bg-color-secondary: #06031c;
