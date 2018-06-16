@@ -1,8 +1,11 @@
 title: Donovan Palmer
+name: Donovan Palmer
 email: donovan@donovanpalmer.net
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to my home on the internet, my name is Donovan Palmer. I am a Web Developer and Architect primilarly focused on Drupal and Data.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://donovanpalmer.net" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dgpalmer
+
+markdown: Kramdown
 theme: jekyll-theme-cayman
