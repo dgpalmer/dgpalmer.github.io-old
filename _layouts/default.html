@@ -3,55 +3,56 @@
     <head>
         <title>{{ page.title }}</title>
         <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="/css/styles.css?14">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css?15">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     </head>
 		<body>
-
-        <header class="page-header">
-            
-            <h1 class="header-title">Hello, I'm Donovan Palmer!</h1>
-            <div class="header-slogan">
-                <p>{{ site.description }}</p>
-            </div >
-
-            <div id="header-carousel">
-                <img src="/images/dp-balt-drupalcon.jpg" />
-            </div>
-
-            <nav class="header-nav">
-                <ul>
-                    <li><a href="/">Home</a></li>
-                    <!--<li><a href="/about">About</a></li>-->
-                    <!--<li><a target="_blank" href="/files/DonovanPalmerResumeJune2018.pdf">CV</a></li>-->
-                    <li><a href="/cv">CV</a></li>
-                </ul>
-            </nav>
-
-        </header>
-        
         <div class="container">
+
+            <header class="page-header">
+                
+                <h1 class="header-title">Hello, I'm Donovan Palmer!</h1>
+                <div class="header-slogan">
+                    <p>{{ site.description }}</p>
+                </div >
+
+                <div id="header-carousel">
+                    <img src="/images/dp-balt-drupalcon.jpg" />
+                </div>
+
+                <nav class="header-nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <!--<li><a href="/about">About</a></li>-->
+                        <!--<li><a target="_blank" href="/files/DonovanPalmerResumeJune2018.pdf">CV</a></li>-->
+                        <li><a href="/cv">CV</a></li>
+                    </ul>
+                </nav>
+
+            </header>
+        
             <div class="content">
 
                 {{ content }}
 
             </div>
-        </div><!-- /.container -->
         
-        <footer>
-            <nav class="footer-nav">
-                <ul>
-                  <li><a href="mailto:donovan@donovanpalmer.net"><i class="fa fa-envelope"></i></a></li>
-                    <li><a target="_blank" href="https://github.com/dgpalmer"><i class="fab fa-github"></i></a></li>
-                    <li><a target="_blank" href="https://www.drupal.org/u/dpalmer"><i class="fab fa-drupal"></i></a></li>
-                    <li><a target="_blank" href="https://www.instagram.com./donnybutmostlydesmond"><i class="fab fa-instagram"></i></a></li>
-                </ul>
-            </nav>
-            <div class="footer-slogan">
-              <p> 
-                {{ site.footer_slogan }}
-              </p>
-            </div>
-        </footer>
+            <footer>
+                <nav class="footer-nav">
+                    <ul>
+                      <li><a href="mailto:donovan@donovanpalmer.net"><i class="fa fa-envelope"></i></a></li>
+                        <li><a target="_blank" href="https://github.com/dgpalmer"><i class="fab fa-github"></i></a></li>
+                        <li><a target="_blank" href="https://www.drupal.org/u/dpalmer"><i class="fab fa-drupal"></i></a></li>
+                        <li><a target="_blank" href="https://www.instagram.com./donnybutmostlydesmond"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </nav>
+                <div class="footer-slogan">
+                  <p> 
+                    {{ site.footer_slogan }}
+                  </p>
+                </div>
+            </footer>
+
+        </div><!-- /.container -->
 		</body>
 </html>
