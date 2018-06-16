@@ -123,12 +123,11 @@ h6 {
   padding-bottom: 1rem; }
   @media screen and (min-width: 64em) {
     .header-carousel {
-      max-width: 40rem;
+      max-width: 32rem;
       margin: 0 auto; } }
-  @media screen and (min-width: 64em) {
-    .header-carousel img {
-      width: 75%;
-      height: auto; } }
+  .header-carousel img {
+    width: 100%;
+    height: auto; }
 
 .header-nav {
   padding-top: 1rem; }
