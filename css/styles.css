@@ -27,17 +27,18 @@ nav .btn {
     margin-left: 1rem; }
   @media screen and (min-width: 64em) {
     nav .btn {
-      padding: 0.75rem 1rem; } }
+      padding: 0.75rem 1rem;
+      font-size: 1.4rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     nav .btn {
       padding: 0.6rem 0.9rem;
-      font-size: 0.9rem; } }
+      font-size: 1.3rem; } }
   @media screen and (max-width: 42em) {
     nav .btn {
       display: block;
       width: 100%;
       padding: 0.75rem;
-      font-size: 0.9rem; }
+      font-size: 1.2rem; }
       nav .btn + .btn {
         margin-top: 1rem;
         margin-left: 0; } }
@@ -127,11 +128,11 @@ h6 {
       margin: 0 auto; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .header-carousel {
-      max-width: 30rem;
+      max-width: 38rem;
       margin: 0 auto; } }
   @media screen and (max-width: 42em) {
     .header-carousel {
-      max-width: 28rem;
+      max-width: 20rem;
       margin: 0 auto; } }
   .header-carousel img {
     width: 100%;
