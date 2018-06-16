@@ -94,6 +94,10 @@ h6 {
   font-weight: normal;
   color: #09040f; }
 
+.container {
+  min-height: 100%;
+  position: relative; }
+
 /**
   * Main Header Stuff
   */
@@ -169,7 +173,8 @@ h6 {
       font-size: 1.25rem; } }
 
 .container .content {
-  word-wrap: break-word; }
+  word-wrap: break-word;
+  padding-bottom: 217px; }
   .container .content :first-child {
     margin-top: 0; }
   @media screen and (min-width: 64em) {
@@ -197,7 +202,7 @@ h6 {
 footer {
   position: absolute;
   bottom: 0;
-  height: 75px;
+  width: 100%;
   padding-top: 2rem;
   padding-bottom: 2rem;
   text-align: center;
