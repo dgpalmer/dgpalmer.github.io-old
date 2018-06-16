@@ -41,19 +41,19 @@ nav {
 
     @include large {
       padding: 0.75rem 1rem;
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }
 
     @include medium {
       padding: 0.6rem 0.9rem;
-      font-size: 1.3rem;
+      font-size: 1.8rem;
     }
 
     @include small {
       display: block;
       width: 100%;
       padding: 0.75rem;
-      font-size: 1.2rem;
+      font-size: 2.2rem;
 
       + .btn {
         margin-top: 1rem;
