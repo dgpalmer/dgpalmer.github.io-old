@@ -31,6 +31,8 @@ h6 {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 }
 footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   background-color: $footer-bg-color;
   background-image: linear-gradient(120deg, $footer-bg-color-secondary, $footer-bg-color);

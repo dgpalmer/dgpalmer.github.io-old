@@ -18,8 +18,8 @@ ol {
 
 body {
   font: 100% Helvetica, sans-serif;
-  color: #efefef;
-  background-color: #efefef; }
+  color: #080811;
+  background-color: #080811; }
 
 nav {
   margin-top: 1rem; }
@@ -41,6 +41,8 @@ h6 {
   background-image: linear-gradient(120deg, #155799, #159957); }
 
 footer {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   text-align: center;
   background-color: #2C2B38;
   background-image: linear-gradient(120deg, #06031c, #2C2B38); }
