@@ -61,4 +61,31 @@ nav {
       }
     }
   }
+
+  .resume-mobile {
+
+    @include large {
+      display: none;
+    }
+    @include medium{
+      display: block;
+    }
+    @include small{
+      display: block;
+    }
+  }
+
+  .resume-desktop {
+
+    @include large {
+      display: block;
+    }
+    @include medium{
+      display: none;
+    }
+    @include small{
+      display: none;
+    }
+  }
+   
 }

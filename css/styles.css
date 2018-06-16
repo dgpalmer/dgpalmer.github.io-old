@@ -42,6 +42,24 @@ nav .btn {
       nav .btn + .btn {
         margin-top: 1rem;
         margin-left: 0; } }
+@media screen and (min-width: 64em) {
+  nav .resume-mobile {
+    display: none; } }
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  nav .resume-mobile {
+    display: block; } }
+@media screen and (max-width: 42em) {
+  nav .resume-mobile {
+    display: block; } }
+@media screen and (min-width: 64em) {
+  nav .resume-desktop {
+    display: block; } }
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  nav .resume-desktop {
+    display: none; } }
+@media screen and (max-width: 42em) {
+  nav .resume-desktop {
+    display: none; } }
 
 * {
   box-sizing: border-box; }
