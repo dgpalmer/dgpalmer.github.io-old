@@ -69,12 +69,12 @@ h6 {
     font-size: 1.25rem;
 		max-width: $max-width;
 		margin: 0 auto;
-    padding: $large-padding;
+    padding: 0 4rem;
   }
 
   @include medium {
     font-size: 1.15rem;
-    padding: $medium-padding;
+    padding: 0 2rem;
   }
 
   @include small {
@@ -88,6 +88,7 @@ h6 {
     max-width: $max-width;
     margin: 0 auto;
   }
+  padding-bottom: 1rem;
 }
 
 .header-nav {

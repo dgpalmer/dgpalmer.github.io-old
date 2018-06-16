@@ -109,20 +109,22 @@ h6 {
       font-size: 1.25rem;
       max-width: 64em;
       margin: 0 auto;
-      padding: 2rem 4rem 1rem; } }
+      padding: 0 4rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .header-slogan {
       font-size: 1.15rem;
-      padding: 1rem 2rem; } }
+      padding: 0 2rem; } }
   @media screen and (max-width: 42em) {
     .header-slogan {
       font-size: 1rem;
       padding: 2rem 1rem; } }
 
-@media screen and (min-width: 64em) {
-  .header-carousel {
-    max-width: 64em;
-    margin: 0 auto; } }
+.header-carousel {
+  padding-bottom: 1rem; }
+  @media screen and (min-width: 64em) {
+    .header-carousel {
+      max-width: 64em;
+      margin: 0 auto; } }
 
 .header-nav {
   padding-top: 1rem; }
