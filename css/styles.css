@@ -89,7 +89,7 @@ h6 {
   @media screen and (min-width: 64em) {
     .header-title {
       font-size: 3.25rem;
-      padding: 2rem 4rem 1rem; } }
+      padding: 1rem 4rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .header-title {
       font-size: 2.25rem;
@@ -146,7 +146,7 @@ h6 {
     .container .content {
       max-width: 64em;
       margin: 0 auto;
-      padding: 2rem 4rem 1rem;
+      padding: 1rem 4rem;
       font-size: 1.1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .container .content {

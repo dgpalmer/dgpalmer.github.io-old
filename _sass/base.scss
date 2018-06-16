@@ -84,11 +84,13 @@ h6 {
 
 }
 .header-carousel {
+
+  padding-bottom: 1rem;
+
   @include large {
     max-width: $max-width;
     margin: 0 auto;
   }
-  padding-bottom: 1rem;
 }
 
 .header-nav {
