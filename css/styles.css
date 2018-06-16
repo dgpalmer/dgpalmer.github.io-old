@@ -9,11 +9,12 @@ nav a {
   padding: 6px 12px;
   text-decoration: none; }
 nav .btn {
+  color: #aa98a6;
   display: inline-block;
   margin-bottom: 1rem;
   color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  background-color: #2C2B38;
+  border-color: #06031c;
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -120,6 +121,21 @@ h6 {
     .header-slogan {
       font-size: 1rem;
       padding: 2rem 1rem; } }
+
+@media screen and (min-width: 64em) {
+  .header-carousel {
+    max-width: 64em;
+    margin: 0 auto; } }
+
+@media screen and (min-width: 64em) {
+  .header-nav {
+    font-size: 1.25rem; } }
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .header-nav {
+    font-size: 1.15rem; } }
+@media screen and (max-width: 42em) {
+  .header-nav {
+    font-size: 1rem; } }
 
 .container .content {
   word-wrap: break-word; }

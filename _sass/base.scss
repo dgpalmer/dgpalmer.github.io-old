@@ -91,8 +91,23 @@ h6 {
 
 }
 .header-carousel {
+  @include large {
+    max-width: $max-width;
+    margin: 0 auto;
+  }
 }
+
 .header-nav {
+  @include large {
+    font-size: 1.25rem;
+  }
+
+  @include medium {
+    font-size: 1.15rem;
+  }
+  @include small {
+    font-size: 1rem;
+  }
 }
 
 .container {
