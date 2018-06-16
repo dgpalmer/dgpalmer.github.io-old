@@ -90,11 +90,11 @@ h6 {
   padding-bottom: 1rem;
 
   @include large {
-    max-width: 32rem;
+    max-width: 36rem;
     margin: 0 auto;
   }
   @include medium {
-    max-width: 36rem;
+    max-width: 48rem;
     margin: 0 auto;
   }
   @include small {

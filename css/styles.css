@@ -150,11 +150,11 @@ h6 {
   padding-bottom: 1rem; }
   @media screen and (min-width: 64em) {
     .header-carousel {
-      max-width: 32rem;
+      max-width: 36rem;
       margin: 0 auto; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .header-carousel {
-      max-width: 36rem;
+      max-width: 48rem;
       margin: 0 auto; } }
   @media screen and (max-width: 42em) {
     .header-carousel {
