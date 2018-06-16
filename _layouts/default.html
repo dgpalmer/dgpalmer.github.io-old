@@ -1,40 +1,45 @@
 <!DOCTYPE html>
-	<html>
-		<head>
-			<title>{{ page.title }}</title>
-			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/css/styles.css?1">
-		</head>
+<html>
+    <head>
+        <title>{{ page.title }}</title>
+        <!-- link to main stylesheet -->
+        <link rel="stylesheet" type="text/css" href="/css/styles.css?1">
+    </head>
 		<body>
-			<nav>
-	    		<ul>
-	        		<li><a href="/">Home</a></li>
-		        	<li><a href="/about">About</a></li>
-              <!--<li><a target="_blank" href="/files/DonovanPalmerResumeJune2018.pdf">CV</a></li>-->
-              <li><a href="/cv">CV</a></li>
-	    		</ul>
-			</nav>
-      <div class="header">
-        <div class="slogan">
-          <h1>Hello, I'm Donovan Palmer!</h1>
-          <p>Welcome to my home on the internet. I am a Web Developer and Architect primilarly focused on Drupal and Data Architecture.</>
-        </div>
-        <div id="my-picture">
-          <img src="/images/dp-balt-drupalcon.jpg" />
-        </div>
-      </div>
-			<div class="container">
+
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <!--<li><a href="/about">About</a></li>-->
+                <!--<li><a target="_blank" href="/files/DonovanPalmerResumeJune2018.pdf">CV</a></li>-->
+                <li><a href="/cv">CV</a></li>
+            </ul>
+        </nav>
+        
+        <div class="container">
+
+            <section class="header">
+                <h1>Hello, I'm Donovan Palmer!</h1>
+                <p>Welcome to my home on the internet. I am a Web Developer and Architect primilarly focused on Drupal and Data Architecture.</p>
+
+                <div id="my-picture">
+                    <img src="/images/dp-balt-drupalcon.jpg" />
+                </div>
+            </section>
 			
-			{{ content }}
-      
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:donovan@donovanpalmer.net">email</a></li>
-	        		<li><a href="https://github.com/dgpalmer">github.com/dgpalmer</a></li>
-              <li><a href="https://www.drupal.org/u/dpalmer">drupal.org/u/dpalmer</a></li>
-              <li><a href="https://www.instagram.com./donnybutmostlydesmond">instagram.com/donnybutmostlydesmond</a></li>
-				</ul>
-			</footer>
+            <div class="content">
+                {{ content }}
+            </div>
+
+        </div><!-- /.container -->
+        
+        <footer>
+            <ul>
+                <li><a href="mailto:donovan@donovanpalmer.net">email</a></li>
+                <li><a href="https://github.com/dgpalmer">github.com/dgpalmer</a></li>
+                <li><a href="https://www.drupal.org/u/dpalmer">drupal.org/u/dpalmer</a></li>
+                <li><a href="https://www.instagram.com./donnybutmostlydesmond">instagram.com/donnybutmostlydesmond</a></li>
+            </ul>
+        </footer>
 		</body>
-	</html>
+</html>
