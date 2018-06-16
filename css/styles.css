@@ -77,15 +77,15 @@ h6 {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #fff; }
+  color: #efe; }
 
 /**
   * Main Header Stuff
   */
 .page-header {
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  background-color: #f1edf7;
+  background-image: linear-gradient(120deg, #807d84, #f1edf7); }
 
 .header-title {
   margin-top: 0;
