@@ -8,6 +8,39 @@ nav a {
   display: block;
   padding: 6px 12px;
   text-decoration: none; }
+nav .btn {
+  display: inline-block;
+  margin-bottom: 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+  nav .btn:hover {
+    color: rgba(255, 255, 255, 0.8);
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.3); }
+  nav .btn + .btn {
+    margin-left: 1rem; }
+  @media screen and (min-width: 64em) {
+    nav .btn {
+      padding: 0.75rem 1rem; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    nav .btn {
+      padding: 0.6rem 0.9rem;
+      font-size: 0.9rem; } }
+  @media screen and (max-width: 42em) {
+    nav .btn {
+      display: block;
+      width: 100%;
+      padding: 0.75rem;
+      font-size: 0.9rem; }
+      nav .btn + .btn {
+        margin-top: 1rem;
+        margin-left: 0; } }
 
 * {
   box-sizing: border-box; }
@@ -59,11 +92,11 @@ h6 {
   @media screen and (min-width: 64em) {
     .header-title {
       font-size: 3.25rem;
-      padding: 2rem 6rem; } }
+      padding: 2rem 4rem 1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .header-title {
       font-size: 2.25rem;
-      padding: 2rem 4rem; } }
+      padding: 1rem 2rem; } }
   @media screen and (max-width: 42em) {
     .header-title {
       font-size: 1.75rem;
@@ -78,11 +111,11 @@ h6 {
       font-size: 1.25rem;
       max-width: 64em;
       margin: 0 auto;
-      padding: 2rem 6rem; } }
+      padding: 2rem 4rem 1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .header-slogan {
       font-size: 1.15rem;
-      padding: 2rem 4rem; } }
+      padding: 1rem 2rem; } }
   @media screen and (max-width: 42em) {
     .header-slogan {
       font-size: 1rem;
@@ -96,11 +129,11 @@ h6 {
     .container .content {
       max-width: 64em;
       margin: 0 auto;
-      padding: 2rem 6rem;
+      padding: 2rem 4rem 1rem;
       font-size: 1.1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .container .content {
-      padding: 2rem 4rem;
+      padding: 1rem 2rem;
       font-size: 1.1rem; } }
   @media screen and (max-width: 42em) {
     .container .content {
