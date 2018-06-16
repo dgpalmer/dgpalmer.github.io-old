@@ -177,8 +177,7 @@ h6 {
       font-size: 1.25rem; } }
 
 .container .content {
-  word-wrap: break-word;
-  padding-bottom: 217px; }
+  word-wrap: break-word; }
   .container .content :first-child {
     margin-top: 0; }
   @media screen and (min-width: 64em) {
@@ -186,14 +185,17 @@ h6 {
       max-width: 64em;
       margin: 0 auto;
       padding: 1rem 4rem;
+      padding-bottom: 215px;
       font-size: 1.1rem; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .container .content {
       padding: 1rem 2rem;
+      padding-bottom: 215px;
       font-size: 1.1rem; } }
   @media screen and (max-width: 42em) {
     .container .content {
       padding: 2rem 1rem;
+      padding-bottom: 215px;
       font-size: 1rem; } }
   .container .content h2,
   .container .content h3,

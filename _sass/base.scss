@@ -136,20 +136,22 @@ h6 {
 			max-width: $max-width;
 			margin: 0 auto;
 			padding: $large-padding;
+      padding-bottom: 215px;
 			font-size: 1.1rem;
 		}
 
 		@include medium {
 			padding: $medium-padding;
+      padding-bottom: 215px;
 			font-size: 1.1rem;
 		}
 
 		@include small {
 			padding: $small-padding;
+      padding-bottom: 215px;
 			font-size: 1rem;
 		}
 
-    padding-bottom: 217px;
     
     h2,
     h3,
