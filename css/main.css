@@ -41,10 +41,3 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
-#my-picture {
-  float: right;
-  padding: 0 0 5rem 5rem;
-}
-#my-picture .caption {
-  text-align: center;
-}
