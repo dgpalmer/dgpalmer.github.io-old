@@ -44,10 +44,35 @@ h6 {
   font-weight: normal;
   color: #fff; }
 
-.header {
+/**
+  * Main Header Stuff
+  */
+.page-header {
   text-align: center;
   background-color: #159957;
   background-image: linear-gradient(120deg, #155799, #159957); }
+  @media screen and (min-width: 64em) {
+    .page-header {
+      padding: 5rem 6rem; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .page-header {
+      padding: 3rem 4rem; } }
+  @media screen and (max-width: 42em) {
+    .page-header {
+      padding: 2rem 1rem; } }
+
+.header-title {
+  margin-top: 0;
+  margin-bottom: 0.1rem; }
+  @media screen and (min-width: 64em) {
+    .header-title {
+      font-size: 3.25rem; } }
+  @media screen and (min-width: 42em) and (max-width: 64em) {
+    .header-title {
+      font-size: 2.25rem; } }
+  @media screen and (max-width: 42em) {
+    .header-title {
+      font-size: 1.75rem; } }
 
 footer {
   padding-top: 1rem;
