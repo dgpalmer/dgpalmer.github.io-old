@@ -2,7 +2,7 @@ title: Donovan Palmer - Web Developer
 email: donovan@donovanpalmer.net
 footer_slogan: This site was built with Jekyll, Sass, and Github Pages in 1 evening, June 15th, 2018.
 baseurl: /dgpalmer.github.io # the subpath of your site, e.g. /blog
-url: "http://donovanpalmer.net" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://www.donovanpalmer.net" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  dgpalmer
 
 markdown: Kramdown
