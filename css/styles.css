@@ -211,4 +211,12 @@ footer {
   footer .footer-nav {
     font-size: 4rem; }
 
+/**
+  * Resume
+  */
+.resume {
+  width: 64rem;
+  margin: 0 auto;
+  text-align: center; }
+
 /*# sourceMappingURL=styles.css.map */
