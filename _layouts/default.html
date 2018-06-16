@@ -3,34 +3,38 @@
     <head>
         <title>{{ page.title }}</title>
         <!-- link to main stylesheet -->
-        <link rel="stylesheet" type="text/css" href="/css/styles.css?7">
+        <link rel="stylesheet" type="text/css" href="/css/styles.css?8">
     </head>
 		<body>
 
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <!--<li><a href="/about">About</a></li>-->
-                <!--<li><a target="_blank" href="/files/DonovanPalmerResumeJune2018.pdf">CV</a></li>-->
-                <li><a href="/cv">CV</a></li>
-            </ul>
-        </nav>
-        
-        <div class="container">
+        <header>
 
-            <section class="header">
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <!--<li><a href="/about">About</a></li>-->
+                    <!--<li><a target="_blank" href="/files/DonovanPalmerResumeJune2018.pdf">CV</a></li>-->
+                    <li><a href="/cv">CV</a></li>
+                </ul>
+            </nav>
+            
+            <div class="header-slogan">
                 <h1>Hello, I'm Donovan Palmer!</h1>
                 <p>{{ site.description }}</p>
+            </div >
 
-                <div id="my-picture">
-                    <img src="/images/dp-balt-drupalcon.jpg" />
-                </div>
-            </section>
-			
-            <div class="content">
-                {{ content }}
+            <div id="header-carousel">
+                <img src="/images/dp-balt-drupalcon.jpg" />
             </div>
 
+        </header>
+        
+        <div class="container">
+            <div class="content">
+
+                {{ content }}
+
+            </div>
         </div><!-- /.container -->
         
         <footer>

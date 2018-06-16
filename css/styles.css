@@ -9,6 +9,9 @@ nav a {
   padding: 6px 12px;
   text-decoration: none; }
 
+* {
+  box-sizing: border-box; }
+
 html,
 body,
 ul,
@@ -20,6 +23,9 @@ body {
   font: 100% Helvetica, sans-serif;
   color: #efefef;
   background-color: #080811; }
+
+a {
+  color: #aa98a6; }
 
 nav {
   margin-top: 1rem; }

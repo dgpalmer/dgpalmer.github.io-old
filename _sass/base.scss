@@ -2,14 +2,41 @@
 @import 'reset';
 @import 'variables';
 
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
+}
+
+
 body {
   font: 100% $font-stack;
   color: $primary-color;
   background-color: $primary-bg-color;
 }
 
+a {
+  color: $primary-link-color;
+}
+
+
 nav {
   margin-top: 1rem;
+}
+
+nav a {
 }
 
 p {
