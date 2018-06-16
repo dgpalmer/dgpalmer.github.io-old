@@ -2,6 +2,7 @@
 @import 'reset';
 
 body {
-  font: 100% Helvetica, sans-serif;
-  background-color: #efefef;
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $primary-bg-color;
 }
