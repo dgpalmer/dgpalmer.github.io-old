@@ -154,11 +154,11 @@ h6 {
       margin: 0 auto; } }
   @media screen and (min-width: 42em) and (max-width: 64em) {
     .header-carousel {
-      max-width: 30rem;
+      max-width: 36rem;
       margin: 0 auto; } }
   @media screen and (max-width: 42em) {
     .header-carousel {
-      max-width: 28rem;
+      max-width: 52rem;
       margin: 0 auto; } }
   .header-carousel img {
     width: 100%;
