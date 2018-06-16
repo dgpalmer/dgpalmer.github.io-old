@@ -57,10 +57,6 @@ h6 {
 }
 
 .container {
-	@include large {
-		max-width: $max-width;
-		margin: 0 auto;
-	}
 }
 /**
   * Main Header Stuff
@@ -71,15 +67,15 @@ h6 {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 5rem 6rem;
+    padding: $large-padding;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    padding: $medium-padding;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    padding: $small-padding; 
   }
 }
 
@@ -104,6 +100,8 @@ h6 {
 
   @include large {
     font-size: 1.25rem;
+		max-width: $max-width;
+		margin: 0 auto;
   }
 
   @include medium {
@@ -130,17 +128,18 @@ h6 {
 
 		@include large {
 			max-width: $max-width;
-			padding: 2rem 6rem;
+			margin: 0 auto;
+			padding: $large-padding;
 			font-size: 1.1rem;
 		}
 
 		@include medium {
-			padding: 2rem 4rem;
+			padding: $medium-padding;
 			font-size: 1.1rem;
 		}
 
 		@include small {
-			padding: 2rem 1rem;
+			padding: $small-padding;
 			font-size: 1rem;
 		}
 
