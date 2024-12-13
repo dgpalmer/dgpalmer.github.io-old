@@ -1,58 +1,13 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>{{ page.title }}</title>
-        <!-- link to main stylesheet -->
-          <link rel="stylesheet" type="text/css" href="/css/styles.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    </head>
-		<body>
-        <div class="container">
-
-            <header class="page-header">
-
-                <nav class="header-nav">
-                    <ul>
-                        <li class="btn"><a href="/">Home</a></li>
-                        <!--<li class="btn"><a href="/about">About</a></li>-->
-                        <li class="btn resume-mobile"><a target="_blank" href="/files/DonovanPalmersResume2021.pdf">CV</a></li>
-                        <li class="btn resume-desktop"><a href="/cv">CV</a></li>
-                    </ul>
-                </nav>
-
-                
-                <h1 class="header-title">Hello, I'm Donovan Palmer!</h1>
-                <div class="header-slogan">
-                    <p>{{ site.description }}</p>
-                </div >
-
-                <div class="header-carousel">
-                    <img src="/images/dp-drupalcon-baltimore.jpg" />
-                </div>
-
-            </header>
-        
-            <div class="content">
-
-                {{ content }}
-
-            </div>
-        
-            <footer>
-                <nav class="footer-nav">
-                    <ul>
-                      <li><a href="mailto:donovan@donovanpalmer.net"><i class="fa fa-envelope"></i></a></li>
-                        <li><a target="_blank" href="https://github.com/dgpalmer"><i class="fab fa-github"></i></a></li>
-                        <li><a target="_blank" href="https://www.drupal.org/u/dpalmer"><i class="fab fa-drupal"></i></a></li>
-                    </ul>
-                </nav>
-                <div class="footer-slogan">
-                  <p> 
-                    {{ site.footer_slogan }}
-                  </p>
-                </div>
-            </footer>
-
-        </div><!-- /.container -->
-		</body>
+<html lang="en" class="h-full scroll-smooth bg-white antialiased">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?1">
+  </head>
+  <body class="flex min-h-full flex-col">
+    {% include header.html %}
+    {% include services.html %}
+    {% include about.html %}
+    {% include footer.html %}
+  </body>
 </html>
