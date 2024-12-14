@@ -7,5 +7,3 @@ quote_author_title: ", M.D."
 header: "Donovan Palmer"
 subheader: "husband, father, developer"
 ---
-
-## Bootstrap
