@@ -89,5 +89,8 @@
   @apply bg-oscuror relative bottom-0 w-full;
 }
 .footer .section {
-  @apply container pt-12 flex-none;
+  @apply container py-8 flex-none;
+}
+.icon {
+  @apply: w-12 h-12 block;
 }
