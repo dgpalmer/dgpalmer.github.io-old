@@ -4,3 +4,84 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+.container {
+  @apply max-w-6xl;
+}
+
+.section {
+  @apply w-full;
+}
+
+.block {
+  overflow: hidden;
+  @apply py-12 md:px-8 w-full;
+}
+
+.block__styles {
+  @apply flex flex-row w-full tracking-tight text-dWhite;
+}
+
+.block:nth-child(even) .block__content {
+  @apply justify-items-end;
+}
+
+.block__content {
+  @apply w-full font-mono;
+
+}
+.block__heading {
+  @apply text-4xl font-bold py-8;
+}
+
+.block--about .page__title {
+  @apply text-header;
+}
+
+.block__text {
+  @apply text-xl py-4;
+}
+
+
+
+
+.button {
+  display: inline-flex;
+  padding: 0.5rem 1rem;
+  @apply bg-black font-mono text-dWhite rounded-md tracking-tight justify-center;
+}
+
+.button:active {
+  border-width: 1px;
+  @apply active:border-dWhite active:active:text-white;
+}
+
+.button:hover {
+  border-width: 1px;
+  @apply hover:border-dWhite hover:active:text-white;
+}
+
+.text-header {
+  @apply text-5xl font-bold py-8;
+}
+
+.section--header {
+  @apply bg-oscuror h-24 fixed top-0;
+}
+
+.section--header .block {
+  @apply container mx-auto grid grid-cols-1 lg:grid-cols-4 grid-rows-[auto_1fr] py-4;
+}
+
+.section--main {
+}
+.section--main .blocks {
+  @apply container relative mx-auto flex flex-col gap-y-12 divide-dWhite divide-y
+}
+
+.section--footer {
+  @apply bg-oscuror bottom-0 absolute;
+}
+.section--footer .block {
+  @apply container mx-auto pt-12 flex-none;
+}
