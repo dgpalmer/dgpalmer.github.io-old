@@ -3,17 +3,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css?1">
-    <script src="https://kit.fontawesome.com/d5185f7665.js" crossorigin="anonymous"></script>
+    {% include gtm.html %}
   </head>
 
   <body class="bg-gris">
       {% include header.html %}
       <div class="main">
-        {% include heading.html %}
-        {% include interests.html %}
-        {% include skills.html %}
-        {% include current.html %}
-        {% include past.html %}
+        {{ content }}
       </div>
       {% include footer.html %}
   </body>

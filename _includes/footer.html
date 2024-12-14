@@ -1,14 +1,15 @@
 <footer class="footer">
-  <div class="section section--footer items-center">
-    <div class="flex flex-row items-center justify-between gap-6 sm:flex-row text-dWhite">
-      <div class="flex flex-row flex-wrap justify-enter gap-x-6 text-sm font-medium text-center md:text-left">
-        <a href="mailto:{{ site.email }}">{% include github.html %}</a>
-        <a class="transition" href="mailto:{{ site.email }}">{% include linkedin.html %}</a>
-        <a class="transition" href="mailto:{{ site.email }}">{% include spotify.html %}</a>
-        <a class="transition" href="mailto:{{ site.email }}">{% include email.html %}</a>
+  <div class="section">
+    <div class="footer--styles">
+      <div class="footer--socials">
+        <a href="{{ site.github}}" target="_blank">{% include github.html %}</a>
+        <a href="{{ site.linkedin }}" target="_blank">{% include linkedin.html %}</a>
+        <a href="{{ site.spotify }}" target="_blank">{% include spotify.html %}</a>
+        <a href="mailto:{{ site.email }}">{% include email.html %}</a>
       </div>
-      <div class="h-full items-center">
-        <p class="text-sm">©2024 {{ site.title }}. All rights reserved.</p>
+      <div class="footer--copyright">
+        <p class="text-sm">©2024 {{ site.title }}</p>
+        <p class="text-sm">All Rights Reserved.</p>
       </div>
     </div>
   </div>

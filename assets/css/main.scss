@@ -5,6 +5,9 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+body {
+  @apply font-mono;
+}
 .container {
   @apply max-w-6xl mx-auto;
 }
@@ -22,7 +25,7 @@
 }
 
 .section__content {
-  @apply w-full font-mono lowercase;
+  @apply w-full lowercase;
 
 }
 .section__heading {
@@ -30,8 +33,20 @@
 }
 
 .section--heading .section__title {
-  @apply normal-case text-5xl font-bold py-8;
+  @apply normal-case text-4xl md:text-5xl font-bold py-8;
 }
+
+.section--heading .section__image {
+  overflow: hidden;
+  position: relative;
+  @apply mx-auto -mt-8 h-40 w-56 md:float-right md:h-60 md:w-72 rounded-full  md:[shape-outside:circle(40%)];
+}
+
+.section--heading .section__image img {
+  color: transparent;
+  @apply absolute inset-0 h-full w-full object-cover;
+}
+
 
 .section__text {
   @apply text-xl py-4;
@@ -46,11 +61,19 @@
 }
 
 .button {
-  display: inline-flex;
   padding: 0.5rem 1rem;
+  display: inline-flex;
   border-width: 1px;
   border-color: transparent;
-  @apply bg-black font-mono text-dWhite rounded-md tracking-tight justify-center;
+  @apply bg-black text-dWhite rounded-md tracking-tight justify-center;
+}
+
+.button--cv__sm {
+  @apply inline-flex md:hidden;
+}
+
+.button--cv__md {
+  @apply hidden md:inline-flex;
 }
 
 .button:active {
@@ -74,11 +97,18 @@
 }
 
 .header .section {
-  @apply container items-center grid grid-cols-1 lg:grid-cols-4 grid-rows-[auto_1fr];
+  @apply container items-center grid grid-cols-4 grid-rows-[auto_1fr] pr-4 md:pr-8
 }
 
-.header--logo {
-  @apply items-center lg:col-span-1 lg:row-span-2;
+.nav__wrapper {
+  @apply w-full col-span-3 justify-items-end;
+}
+.nav__wrapper nav {
+  @apply flex gap-4;
+}
+
+.section--logo {
+  /*@apply items-center lg:col-span-1 lg:row-span-2;*/
 }
 
 .main {
@@ -89,8 +119,25 @@
   @apply bg-oscuror relative bottom-0 w-full;
 }
 .footer .section {
-  @apply container py-8 flex-none text-dWhite;
+  @apply container flex-none text-dWhite px-4 md:px-8 py-8 items-center
 }
 .icon {
-  @apply w-10 h-10 fill-dWhite;
+  @apply w-8 h-8 md:w-10 md:h-10 fill-dWhite;
+}
+
+.footer--socials {
+  @apply flex flex-row flex-wrap justify-center gap-4 md:gap-x-6 text-sm font-medium text-center md:text-left
+}
+.footer--copyright {
+  @apply h-full items-center text-right;
+}
+.footer--styles {
+  @apply flex flex-row items-center justify-between gap-4 sm:flex-row text-dWhite
+}
+
+.section--resume {
+  @apply text-dWhite;
+}
+.section--resume .embed--resume {
+  padding: 2rem 0;
 }
